@@ -1,6 +1,6 @@
 <img align="right" src="https://raw.githubusercontent.com/mcbeet/mecha/main/logo.png" alt="logo" width="76">
 
-# Mecha
+# Mecha - edit:sysnote8main
 
 [![GitHub Actions](https://github.com/mcbeet/mecha/workflows/CI/badge.svg)](https://github.com/mcbeet/mecha/actions)
 [![PyPI](https://img.shields.io/pypi/v/mecha.svg)](https://pypi.org/project/mecha/)
