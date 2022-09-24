@@ -1175,7 +1175,7 @@ class NbtParser:
 
     def parse_compound_entry(self, stream: TokenStream) -> AstNbtCompoundEntry:
         """Parse nbt compound entry."""
-        key = stream.expect_any("number", "string", "quoted_string")
+        key = stream.expect_any("number", "string", "quoted_string", "invalid")
         key_node = AstNbtCompoundKey(value=self.quote_helper.unquote_string(key))
         key_node = set_location(key_node, key)
 
